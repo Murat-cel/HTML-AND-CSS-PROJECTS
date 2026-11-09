@@ -1,0 +1,112 @@
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+/* Hover Effect */
+.effect-box {
+    background-color: #3498db;
+    color: white;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.effect-box:hover {
+    transform: scale(1.1);
+}
+
+/* Box Shadow Effect */
+.shadow-box {
+    background-color: white;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.shadow-box:hover {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Transition Effect */
+.transition-box {
+    background-color: #2ecc71;
+    color: white;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.transition-box:hover {
+    background-color: #27ae60;
+    transform: translateY(-10px);
+}
+
+/* Animation Effect */
+.animation-box {
+    background-color: #9b59b6;
+    color: white;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    animation: moveBox 3s infinite alternate;
+}
+
+@keyframes moveBox {
+    from {
+        transform: translateX(-30px);
+    }
+
+    to {
+        transform: translateX(30px);
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
