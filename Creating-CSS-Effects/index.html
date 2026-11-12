@@ -4,44 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Effects</title>
+
+    <title>Creating CSS Effects | Murat</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
-        <h1>CSS Effects</h1>
-        <p>Explore different CSS effects and animations.</p>
+        <div class="header-content">
+            <p class="subtitle">HTML & CSS PROJECT</p>
+            <h1>Creating CSS Effects</h1>
+            <p class="intro">
+                Discover how CSS can transform a simple webpage
+                into a modern and interactive experience.
+            </p>
+        </div>
     </header>
 
-    <main>
-        <section class="container">
+    <main class="container">
 
-            <div class="effect-box">
-                <h2>Hover Effect</h2>
-                <p>Move your mouse over this box to see the effect.</p>
+        <section class="intro-section">
+            <h2>Explore CSS Effects</h2>
+            <p>
+                CSS provides many creative ways to improve the appearance
+                and interaction of a website. Explore the examples below.
+            </p>
+        </section>
+
+        <section class="effects-grid">
+
+            <div class="effect-card text-card">
+                <span class="effect-number">01</span>
+                <h2>Typography Effect</h2>
+                <p>
+                    Google Fonts enhances the appearance and readability
+                    of text on a webpage.
+                </p>
+                <h3 class="sample-text">Creative Typography</h3>
             </div>
 
-            <div class="shadow-box">
+            <div class="effect-card shadow-card">
+                <span class="effect-number">02</span>
                 <h2>Box Shadow Effect</h2>
-                <p>This box demonstrates a shadow effect.</p>
+                <p>
+                    Box shadows add depth and dimension to website
+                    elements.
+                </p>
+                <div class="shadow-example">
+                    Shadow Example
+                </div>
             </div>
 
-            <div class="transition-box">
+            <div class="effect-card transition-card">
+                <span class="effect-number">03</span>
                 <h2>Transition Effect</h2>
-                <p>Hover over this box to see the transition.</p>
+                <p>
+                    Hover over this card to see a smooth transition
+                    and background color change.
+                </p>
+                <div class="transition-example">
+                    Hover Over Me
+                </div>
             </div>
 
-            <div class="animation-box">
+            <div class="effect-card animation-card">
+                <span class="effect-number">04</span>
                 <h2>Animation Effect</h2>
-                <p>This box demonstrates CSS animation.</p>
+                <p>
+                    CSS animations create movement and make webpage
+                    elements more engaging.
+                </p>
+                <div class="animation-example"></div>
             </div>
 
         </section>
+
+        <section class="image-section">
+            <span class="effect-number">05</span>
+            <h2>Image Hover Effect</h2>
+            <p>
+                Move your mouse over the image to see the CSS hover
+                transformation.
+            </p>
+
+            <div class="image-wrapper">
+                <img
+                    src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+                    alt="Beautiful mountain lake landscape"
+                >
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2026 CSS Effects Project</p>
+        <p>Creating CSS Effects | HTML and CSS Project</p>
     </footer>
 
 </body>
